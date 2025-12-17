@@ -8,14 +8,52 @@ int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    int numeroCasasTorre = 5;
+    int numeroCasasBispo = 5;
+    int numeroCasasRainha = 8;
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
 
+    int x = 1;
+
+    printf("Torre:\n");
+
+    // Enquanto "x" for menor ou igual a "numeroCasasTorre"
+    while (x <= numeroCasasTorre) {
+        // Imprime a direção do movimento da torre
+        printf("  Direita\n");
+        // Incrementa o valor de "x", para prosseguir no loop
+        x++;
+    }
+    
+    // Implementação de Movimentação do Bispo
+    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+
+    int y = 1;
+
+    printf("\nBispo:\n");
+
+    // Pelo menos uma vez...
+    do {
+        // Imprime a direção do movimento do bispo
+        printf("  Cima, Direita\n");
+        // Incrementa o valor de "y", para prosseguir no loop
+        y++;
+    } while (y <= numeroCasasBispo); // Enquanto "y" for menor ou igual a "numeroCasasBispo"
+
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+
+    printf("\nRainha:\n");
+
+    // Define a variável inicial diretamente no loop
+    // Enquanto "z" for menor ou igual a "numeroCasasRainha"
+    for (int z = 1; z <= numeroCasasRainha; z++) {
+        // Imprime a direção do movimento da rainha
+        printf("  Esquerda\n");
+        // Ao final, executa-se o incremento de "z"
+    }
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
