@@ -23,7 +23,7 @@ int main() {
     while (x <= numeroCasasTorre) {
         // Imprime a direção do movimento da torre
         printf("  Direita\n");
-        // Incrementa o valor de "x", para prosseguir no loop
+        // Incrementa o valor de "x", para avançar no loop
         x++;
     }
     
@@ -38,7 +38,7 @@ int main() {
     do {
         // Imprime a direção do movimento do bispo
         printf("  Cima, Direita\n");
-        // Incrementa o valor de "y", para prosseguir no loop
+        // Incrementa o valor de "y", para avançar no loop
         y++;
     } while (y <= numeroCasasBispo); // Enquanto "y" for menor ou igual a "numeroCasasBispo"
 
@@ -53,6 +53,7 @@ int main() {
         // Imprime a direção do movimento da rainha
         printf("  Esquerda\n");
         // Ao final, executa-se o incremento de "z"
+        // para avançar no loop
     }
 
     // Nível Aventureiro - Movimentação do Cavalo
